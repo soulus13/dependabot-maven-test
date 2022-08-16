@@ -14,10 +14,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <modules>
-        <module>submodule-one</module>
-        <module>submodule-three/some-other-name.xml</module>
-        <module>submodule-two/notpom.xml</module>
-    </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.11.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
